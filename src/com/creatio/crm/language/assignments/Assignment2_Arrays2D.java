@@ -1,8 +1,8 @@
 package com.creatio.crm.language.assignments;
 
-public class Assignment2Arrays {
+public class Assignment2_Arrays2D {
     public static void main(String[] args) {
-        // Define the 2D array
+        // Defining the 2D array
         String[][] products = {
             // Groceries
             {"Groceries", "Beverages", "1", "Cola"},
@@ -48,10 +48,5 @@ public class Assignment2Arrays {
             {"Electronics", "Accessories", "5", "USB Drive"}
         };
 
-        // Print the entire array
-        System.out.println("Supermarket Products:");
-        for (String[] product : products) {
-            System.out.printf("%s -> %s -> ID: %s -> Name: %s%n", product[0], product[1], product[2], product[3]);
-        }
     }
 }
